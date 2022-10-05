@@ -22,7 +22,7 @@ for i in apt:
         if i[8] <= 200000 and i[5] >6000 and i[5] <= 8500:
             result.append(i[:9])
    except:
-    pass 
+        pass 
 
 usecsv.writecsv('result.csv', result)
     
